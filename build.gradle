@@ -1,3 +1,14 @@
-plugins {
-    id 'com.android.application' version '8.6.1' apply false
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.tx3.litelauncher'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.tx3.litelauncher'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
 }
